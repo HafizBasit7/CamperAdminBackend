@@ -1,0 +1,34 @@
+//Booking Accepted
+bookingAccepted 1,  booking_id 3
+
+// Booking Rejected 
+bookingRejected 1, booking_id 3
+
+//Booking Cancelled
+bookingCancelled 1, booking_id 3
+
+//newBooking (Owner Side + userside (confirm notification))
+newBooking 1, camperid 3, bookingId:  5
+
+//contractCreated 
+contractCreated 1, contractid 3, bookingid 5
+
+// Contract Signed by renter (for owner)
+contractSigned 1,  contractid 3, bookingid 5
+
+// handoverCreated
+handoverCreated 1, handoverid 3, booking_id 5
+
+//handoverSigned
+handoverSigned 1, handoverid 3, booking_id 5
+
+//newFollower
+newFollower 1 follower_id 3,profilePic 5
+
+//newFriendRequest 
+newFriendRequest 1, friend id 3, profile pic 5
+
+//friendRequestAccepted
+friendRequestAccepted 1 friendid 3 profilepic 5
+
+ 
