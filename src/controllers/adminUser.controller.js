@@ -69,7 +69,8 @@ exports.getUsers = async (req, res, next) => {
           role: u.isAdmin ? 'admin' : 'user',
           status: u.accountStatus,
           verified: u.emailVerified,
-          joinDate: u.createdAt,
+         joinDate: u.createdAt ? new Date(u.createdAt).toISOString() : null,
+
           vehiclesUploaded,
           vehiclesBooked,
         };
